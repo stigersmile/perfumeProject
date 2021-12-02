@@ -7714,8 +7714,8 @@ fieldset:disabled .btn {
   left: 1070;
 }
 
-.container {
-  width: 1920px;
+.custom-width {
+  max-width: 1200px;
   margin: 0 auto;
   border: 1px solid black;
 }
