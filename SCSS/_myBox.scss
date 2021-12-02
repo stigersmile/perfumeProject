@@ -1,0 +1,63 @@
+@mixin boxSize($wValue,$hValue){
+    width:$wValue;
+    height:$hValue;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.largeBox{
+    @include boxSize(555px,555px);
+    overflow: hidden;
+    outline: solid;
+}
+
+.largeBox2{
+    @include boxSize(555px,1080px);
+    overflow: hidden;
+    outline: solid;
+}
+
+.index_box{
+   @include boxSize(1110px,555px);
+   outline: solid;
+}
+
+.index_box-lg{
+    @include boxSize(1110px,1080px);
+    outline: solid;
+ }
+
+@mixin content_boxSize($wValue,$hValue){
+    width:$wValue;
+    height:$hValue;
+}
+
+.content_box{
+    @include boxSize(555px,555px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_box-lg{
+    @include boxSize(555px, 1080px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.boxTitle{
+    font-weight: bold;
+    font-size: 32px;
+    width:350px;
+}
+
+.boxContent{
+    font-weight: normal;
+    font-size: 20px;
+    width:350px;
+}

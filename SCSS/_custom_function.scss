@@ -1,0 +1,8 @@
+@mixin move($x,$y){
+    top:$y;
+    left:$x;
+}
+
+.moveBanner{
+    @include move(1070,295);
+}

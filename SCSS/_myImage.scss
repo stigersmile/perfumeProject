@@ -1,0 +1,28 @@
+
+
+@mixin imageSize($value){
+    width:$value;
+    height:auto;
+}
+
+@mixin imageSizeWH($wValue,$hValue){
+    width:$wValue;
+    height:$hValue;
+}
+
+
+.index_image{
+   @include imageSize(555px);
+}
+
+.index_image-fit{
+    @include imageSizeWH(555px,1080px);
+    object-fit: cover;
+ }
+
+ .index_image-fit2{
+    @include imageSizeWH(555px,555px);
+    object-fit: cover;
+ }
+
+

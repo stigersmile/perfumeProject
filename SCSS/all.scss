@@ -1,0 +1,39 @@
+@import "./helper/custom_variables";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helper/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/utilities/api";
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// bootstrap optional
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/buttons";
+
+
+
+//utilities
+@import "custom_function";
+
+@import "base";
+//layouts
+@import "index";
+
+
+//components
+@import "myImage";
+@import "myBox";
+
+
+
+
+
+
